@@ -2,19 +2,19 @@ import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
 
-const Home = () => {
-  console.log('RENDER HOME PAGE')
+const Test = () => {
+  console.log('RENDER TEST PAGE')
 
   return (
     <div>
       <Head>
-        <title>Home</title>
+        <title>Test Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <div>Home Page</div>
+      <div>Test Page</div>
     </div>
   )
 }
 
-export default Home
+export default Test
